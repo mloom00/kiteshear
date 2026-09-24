@@ -1,0 +1,25 @@
+kiteshear
+
+Copyright (c) 2026 Michael Loomis
+
+This product includes software developed by Michael Loomis, licensed under the MIT
+License (see LICENSE).
+
+Format and reference attributions
+---------------------------------
+This toolkit interoperates with the Kiteshield packer file format. The format,
+struct layouts, and obfuscation scheme it targets originate from:
+
+  * Kiteshield -- github.com/GunshipPenguin/kiteshield
+    Copyright (c) Rhys Rustad-Elliott. MIT License.
+    (Format/structure source: common/include/defs.h, loader/entry.S,
+     loader/obfuscated_strings.h.)
+
+  * "Kiteshield Packer is being abused by cybercriminals" (2024),
+    XLab / QiAnXin Technology.
+    (Public reverse-engineering write-up of the on-disk format and the
+     runtime_info obfuscation used as a format reference.)
+
+The code in this repository is an independent implementation. These entries
+credit the sources of the file-format knowledge it relies on; they do not imply
+endorsement by those authors or organizations.
